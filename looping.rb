@@ -1,3 +1,4 @@
+require 'pry'
 def happy_new_year
   # your code here
   counter = 10
@@ -36,3 +37,5 @@ def reverse_string(str)
   end
   reversed_str
 end
+
+binding.pry
